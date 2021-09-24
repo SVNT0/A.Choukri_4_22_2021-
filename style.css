@@ -136,6 +136,32 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+.slogan {
+    font-size: 22px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.citation {
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+   
+}
+
+.citation-author {
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+
+.portfolio {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: initial ;
+}
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -329,6 +355,8 @@ a:hover {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
+
+
 
 .nav > li a:hover,
 .nav > li a:focus {
@@ -673,7 +701,7 @@ a {
 }
 
 p {
-    font-size: 17px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -689,7 +717,7 @@ p {
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
-    background: black!important;
+    background: black !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -697,9 +725,16 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    color: white !important;
+    max-width: 500px;
     margin: auto auto auto auto;
 }
+
+.social a {
+    color: white !important;
+    padding-left: 10px;
+}
+
 
 h2 {
     font-size: 22px;
@@ -755,9 +790,26 @@ h4 {
 }
 
 .bold-link {
-    font-weight: 900;
-    text-decoration: underline!important;
+    font-size: 18px;
+    padding: 18px;
+    border-radius: 200px;
+    background: black;
+    margin: 20px !important;
+    font-weight: 700;
 }
+
+.bold-link:hover {
+    background: white !important;
+    color: black !important;
+    transition: 0.3s;
+}
+
+.bold-link:hover a {
+    background: white !important;
+    color: black !important;
+    transition: 0.3s;
+}
+
 
 .bgc-white {
     background-color: #FFFFFF;
@@ -768,11 +820,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background: black!important;
+    background-color: black !important;
 }
 
 .tc-white {
-    background: white!important;
+    color: white !important;
 }
 
 .btn-atomic-tangerine {
@@ -781,8 +833,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: white!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -995,6 +1047,7 @@ h4 {
     .a-block {
         padding: 0 10px;
     }
+  
     .voffset {
         margin-top: 5px;
     }
