@@ -693,6 +693,7 @@ p {
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
+    background: black!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -771,11 +772,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background: black!important;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    background: white!important;
 }
 
 .btn-atomic-tangerine {
